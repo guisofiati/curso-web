@@ -15,3 +15,11 @@ console.log('a = ', a)
  * Se comentasse o sentença ' var a = 2 ' vai dar erro pois 'a' não vai existir.
  * 
  */
+
+function teste() {
+    console.log('b = ', b)
+    var b = 10
+    console.log('b = ', b)
+}
+
+teste()
